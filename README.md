@@ -1,1 +1,2 @@
 # Epidemic-Model
+This file contains is a simulation of the SIR model. The SIR (Susceptible, Infected, Recovered) epidemic model is used to mathematically model infectious diseases. The simulation generates a 2-D grid (represented by a 2-D dynamic array) and uses a linked list data structure to represent the infected host and susceptible population. In addition each node has a specific index and as the simualtion progresses. If the susceptible host is at the same index as the infected host then the status of the suscpetible host changes to become infected.   
